@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-import tt6 as calc
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
